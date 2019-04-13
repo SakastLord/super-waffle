@@ -1,7 +1,7 @@
 # super-waffle
 A program which demonstrates an approach of comparing network traffic based on the property of self-similarity.
 
-This project was created **ONLY** in educational purposes.
+This project was created **ONLY** for educational purposes.
 
 Usage:
 - start system monitoring with default settings:
