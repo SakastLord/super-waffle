@@ -374,9 +374,6 @@ class Analyzer(threading.Thread, metaclass = Singleton):
                         else: data = data[2], socket.inet_ntoa(data[8]), round(time.time() * 1000)
                         if(data is not None): self.__buffer.put_nowait(data[2])
                 except ValueError: continue
-    
-    def get_results(self):
-        return self.__ip_addresses
           
     def resume(self):
         if(not self.__wait_event.is_set()):
