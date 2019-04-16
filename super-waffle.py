@@ -466,7 +466,7 @@ def help_cmd(message = ''):
 Commands: 
 \t {name} : <start system monitoring with default settings>
 \t {name} -p | -path : <specify output path> 
-\t {name} -c | --collect {time}: <start data collecting>
+\t {name} -c | --collect [time]: <start data collecting>
 \t {name} -h | --help : <get this information>
 \t {name} -pwd : <get current output path>'''
 .format(message = message, name = os.path.basename(sys.argv[0]))) 
